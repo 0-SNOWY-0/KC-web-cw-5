@@ -1,0 +1,32 @@
+.container {
+    width: 460px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    /* margin: 5px; */
+    transition: all 1s;
+    border-radius: 10px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    text-align: center;
+    font-size: 135px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background-color: rgb(190, 210, 211);
+}
+.box:hover{
+    background-color: rgb(1, 101, 101);
+    box-shadow: 0 0 10px 6px rgb(164, 164, 164);
+}
